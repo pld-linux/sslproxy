@@ -1,0 +1,21 @@
+--- sslproxy.2000_Jan_29.orig/Makefile	2004-08-12 10:51:11.000000000 +0200
++++ sslproxy.2000_Jan_29/Makefile	2004-08-12 10:52:20.000000000 +0200
+@@ -10,15 +10,13 @@
+ 
+ 
+ # if you use cc, remove the -Wall and -g options
+-CC= gcc
++CC = gcc
+ 
+-SSLROOT= /usr/local/openssl
+-
+-CFLAGS= -Wall -I$(SSLROOT)/include -O
++CFLAGS = -Wall
+ # for Solaris 2.x add -DSOLARIS2, for SunOS add -DSUNOS and for HP-UX add
+ # -DHP to the CFLAGS variable
+ 
+-LIBS = -L$(SSLROOT)/lib -lssl -lcrypto
++LIBS = -lssl -lcrypto
+ 
+ OBJ =	sslproxy.o
+ 
