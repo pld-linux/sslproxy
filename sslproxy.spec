@@ -1,5 +1,5 @@
 Summary:	sslproxy - convert a TCP Service to its SSL Variant
-Summary(pl):	sslproxy - konwersja us³ug TCP na wersje SSL
+Summary(pl.UTF-8):   sslproxy - konwersja usÅ‚ug TCP na wersje SSL
 Name:		sslproxy
 Version:	2000_Jan_29
 Release:	0.1
@@ -21,14 +21,14 @@ the secure mode of Sharity (a CIFS/SMB client for Unix). However, the
 program can also be used for a multitude of other security related
 applications.
 
-%description -l pl
-sslproxy to przezroczyste proxy potrafi±ce t³umaczyæ miêdzy
-przesy³aniem zaszyfrowanych i odszyfrowanych danych poprzez po³±czenia
-gniazdami. Ma tak¿e tryb nieprzezroczysty do automatycznego wykrywania
-szyfrowania w NetBIOS. sslproxy jest tworzone aby udostêpniæ bardziej
+%description -l pl.UTF-8
+sslproxy to przezroczyste proxy potrafiÄ…ce tÅ‚umaczyÄ‡ miÄ™dzy
+przesyÅ‚aniem zaszyfrowanych i odszyfrowanych danych poprzez poÅ‚Ä…czenia
+gniazdami. Ma takÅ¼e tryb nieprzezroczysty do automatycznego wykrywania
+szyfrowania w NetBIOS. sslproxy jest tworzone aby udostÄ™pniÄ‡ bardziej
 bezpieczne serwery dla bezpiecznego trybu Sharity (klienta CIFS/SMB
-dla Uniksa). Jednak program ten mo¿e byæ u¿ywany z wieloma innymi
-aplikacjami zwi±zanymi z bezpieczeñstwem.
+dla Uniksa). Jednak program ten moÅ¼e byÄ‡ uÅ¼ywany z wieloma innymi
+aplikacjami zwiÄ…zanymi z bezpieczeÅ„stwem.
 
 %prep
 %setup -q -n %{name}.%{version}
