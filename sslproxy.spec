@@ -1,5 +1,5 @@
 Summary:	sslproxy - convert a TCP Service to its SSL Variant
-Summary(pl.UTF-8):   sslproxy - konwersja usług TCP na wersje SSL
+Summary(pl.UTF-8):	sslproxy - konwersja usług TCP na wersje SSL
 Name:		sslproxy
 Version:	2000_Jan_29
 Release:	0.1
